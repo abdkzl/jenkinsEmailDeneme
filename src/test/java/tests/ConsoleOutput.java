@@ -1,9 +1,12 @@
 package tests;
 
+import org.testng.annotations.Test;
+
 public class ConsoleOutput {
 
 
-    public static void main(String[] args) {
+    @Test
+    public  void BIR(){
 
         System.out.println("Tumconsolegonderilsin = " );
     }

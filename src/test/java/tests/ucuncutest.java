@@ -1,7 +1,10 @@
 package tests;
 
+import org.testng.annotations.Test;
+
 public class ucuncutest {
-    public static void main(String[] args) {
+    @Test
+    public  void UC() {
         System.out.println("ucuncu test yazildi");
     }
 }
