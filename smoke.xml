@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="smoke test">
+        <groups>
+
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.ConsoleOutput"/>
+            <class name="tests.ikincitest"/>
+            <class name="tests.ucuncutest"/>
+
+            <!--
+
+
+            <class name="UITests.DeliveryTest"/>
+             <class name="UITests.AddressConfigurationTest"/>
+             <class name="UITests.CartModuleTest"/>
+             <class name="UITests.ChatBoxTest"/>
+             <class name="UITests.CheckoutControlTest"/>
+             <class name="UITests.EventAddressTest"/>
+             <class name="UITests.EventCreationTest"/>
+             <class name="UITests.EventRegistrationTest"/>
+             <class name="UITests.EventsAttendedTest"/>
+             <class name="UITests.EventsOnNavBarTest"/>
+             <class name="UITests.EventsOrganizeTest"/>
+             <class name="UITests.EventsScheduledTest"/>
+             <class name="UITests.LoginFunctionalityTest"/>
+             <class name="UITests.MailConfirmationTest"/>
+             <class name="UITests.NotificationFunctionalityTest"/>
+             <class name="UITests.OrderVerificationBySellerTest"/>
+             <class name="UITests.PaypalPaymentTest"/>
+             <class name="UITests.PhoneButtonTest"/>
+             <class name="UITests.SellerProductAddTest"/>
+             <class name="UITests.SmokeE2ETest"/>
+             <class name="UITests.SupportUsFunctionsTest"/>
+             <class name="UITests.TradeActivationTest"/>
+             <class name="UITests.TradeFunctionsTestingTest">
+  -->
+
+        </classes>
+
+    </test>
+</suite>
+
